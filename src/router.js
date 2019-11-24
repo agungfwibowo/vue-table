@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Table from './components/table.vue'
 import About from './components/about.vue'
-import Index from './components/index.vue'
+import CrudTable from './components/crud-table.vue'
 import Create from './components/create.vue'
 import Patch from './components/patch.vue'
  
@@ -21,9 +21,9 @@ export default new Router ({
       component: About
     },
     {
-      path: '/index',
-      name: 'index',
-      component: Index
+      path: '/crud-table',
+      name: 'crud-table',
+      component: CrudTable
     },
     {
       path: '/create',

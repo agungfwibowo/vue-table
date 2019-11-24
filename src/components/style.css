@@ -1,8 +1,12 @@
+button:focus {
+  outline: none !important
+}
+
 body > table{
   width: 80%;
 }
 
-table{
+table {
   border-collapse: collapse;
 }
 table.list{
@@ -53,7 +57,7 @@ a {
   color: #0000ee;
 }
 
-button a {
+a button {
   color: #fff;
 }
 
@@ -69,4 +73,13 @@ label.validation-error{
 .search-mhs input[type=text] {
   width: 200px !important;
   padding: 0 10px;
+}
+
+.vue-table td, th {
+  border: none !important;
+}
+
+td.border-less {
+  border-radius: 10px;
+  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, .2);
 }

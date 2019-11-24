@@ -1,0 +1,100 @@
+
+h3 {
+  margin: 10px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #2c3e50 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+button {
+  background: #41b883;
+  border: 2px solid salmon;
+  box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px !important;
+  padding: 10px;
+  margin: 0 2px !important;
+  transition: 0.5s;
+}
+button:hover {
+  background: salmon;
+}
+img {
+  transition: all 0.5s ease-in-out;
+  perspective: 500px;
+  transform: perspective(500px) rotateY(40deg) rotateX(40deg);
+}
+
+img:hover {
+  transition: all 0.5s ease-in-out;
+  transform: perspective(500px) rotateY(-40deg) rotateX(40deg);
+}
+.alert {
+  background: yellow;
+}
+
+.shadow-logo {
+  height: 5px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  opacity: 0.2;
+  box-shadow: 0 -5px 3px 0;
+}
+
+table, input {
+  margin: auto;
+  margin-top: 2px; 
+  width: 100%;
+  border-collapse: collapse;
+}
+
+input {
+  background: #292929;
+  color: azure;
+  border: unset;
+  height: 40px;
+  padding: 0 5px;
+  box-shadow: 0 2px 3px 0 rgb(0,0,0,0.5);
+}
+
+tr {
+  height: 40px;
+  box-shadow: 0 2px 3px 0 rgb(0,0,0,0.5);
+}
+
+thead tr {
+  background: salmon;
+}
+
+td, th {
+  padding: 0 10px;
+}
+
+#app {
+  width: 100%;
+  margin: auto;
+}
+
+.container-table > p {
+  text-align: left;
+  margin: 0 !important;
+}
+
+.container-table {
+  width: 300px;
+  margin: auto;
+}
+
+nav.nav-vue-table {
+  margin-bottom: 5px;
+}

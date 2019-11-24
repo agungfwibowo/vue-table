@@ -1,3 +1,8 @@
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+My way of learning the vue framework for the first time with C.R.U.D concept
+
 # vue-table
 
 ## Project setup
@@ -24,6 +29,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
